@@ -1,0 +1,153 @@
+.form_block_check_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.form_block_check_box span {
+  padding: 0;
+  margin-right: 14px;
+}
+
+.form_block_check_box p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A8AAAE;
+}
+
+.form_btn_login {
+  background: #009CB4;
+  color: #fff;
+  border-radius: 5px;
+  width: 430px;
+  height: 56px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.form_btn_login:hover {
+  transition: background .3s;
+  background: #01B8D5;
+}
+
+.form_block_more_text {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form_forget_password {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #009CB4;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.form_text_info {
+  margin: 20px 0;
+}
+
+.form_text_not_account {
+  text-align: center;
+}
+
+.form_text_not_account span {
+  margin-top: 5px;
+}
+
+.form_block_main_input {
+  display: flex;
+  align-items: center;
+}
+
+.form_block_in_item {
+  margin-bottom: 21px;
+}
+.form_label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.form_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #676A71;
+  margin-bottom: 5px;
+}
+
+.form_text_error {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #E0371F;
+  margin-bottom: 5px;
+}
+
+.form_input {
+  width: 430px;
+  height: 56px;
+  background: #F6F6F9;
+  border: none;
+  border-radius: 5px;
+  padding-left: 18px;
+}
+
+.form_input:focus{
+  outline:solid 1px #009CB4;
+}
+
+.form_input_error {
+  width: 430px;
+  height: 56px;
+  background: #F6F6F9;
+  border: none;
+  border-radius: 5px;
+  padding-left: 18px;
+  color: #E0371F;
+  border: 1px solid #E0371F;
+}
+
+.form_input_error:focus {
+  outline: none;
+}
+
+.form_input_right {
+  width: 430px;
+  height: 56px;
+  background: #F6F6F9;
+  border: none;
+  border-radius: 5px;
+  padding-left: 18px;
+  color: #C6C6C6;
+  color: #00B247;
+  border: 1px solid #00B247;
+}
+
+.form_input_right:focus{
+  outline: none;
+}
+
+.form_input_error_message {
+  color: #E0371F;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+

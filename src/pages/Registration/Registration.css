@@ -1,0 +1,30 @@
+
+
+.modal_block_error_reg {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+.modal_btn_go_to_authorization {
+  width: 180px;
+  height: 36px;
+  left: 20px;
+  top: 20px;
+  background: #009CB4;
+  border-radius: 5px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.modal_btn_go_to_authorization:hover {
+  background: #01B8D5;
+  transition: background .3s;
+}

@@ -1,0 +1,37 @@
+.MainDocument_container {
+  width: 100%;
+  max-width: 1220px;
+}
+
+.MainDocument_title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.MainDocument_title h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #231F20;
+  margin-bottom: 10px;
+}
+
+.MainDocument_title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4D4D4F;
+}
+
+.MainDocument_title p span {
+  color: #009CB4;
+}
+
+.MainDocument_container_table {
+  margin-bottom: 100px;
+}

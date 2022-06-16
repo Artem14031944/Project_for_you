@@ -1,0 +1,154 @@
+.account_container {
+  width: 100%;
+  max-width: 1220px;
+  margin-top: 80px;
+}
+
+.account_block_title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.account_block_title h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #231F20;
+}
+
+.account_settings {
+  margin-top: 40px;
+  display: flex;
+}
+
+.account_menu {
+  margin-right: 130px;
+}
+
+.account_list {
+  list-style: none;
+  width: 270px;
+  height: 504px;
+  border: 1px solid #A8AAAE;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account_list_item {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding-left: 26px;
+  cursor: pointer;
+  border-bottom: 1px solid #A8AAAE;
+}
+
+.account_list_item img {
+  margin-right: 17px;
+}
+
+.account_list_item p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #676A71;
+}
+
+.account_btn_exit {
+  color: #E0371F;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.account_content_name_avatar {
+  display: flex;
+  align-items: center;
+}
+
+.account_content_name_avatar img {
+  margin-right: 20px;
+}
+.account_content_name_avatar h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #231F20;
+}
+
+.account_content_line {
+  width: 770px;
+  height: 1px;
+  background: #EDEDF4;
+  margin: 36px 0;
+}
+
+.account_content_main_settings p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4D4D4F;
+  margin-bottom: 20px;
+}
+
+.account_content_change_password p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4D4D4F;
+  margin-bottom: 20px;
+}
+
+.account_blocks_main_inputs {
+  display: flex;
+}
+
+.account_form_label {
+  margin-bottom: 20px;
+}
+
+.width_input_account {
+  width: 370px;
+}
+
+.account_main_setting_one {
+  margin-right: 30px;
+}
+
+.account_block_btn_save {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+}
+
+.account_btn_save {
+  width: 270px;
+  height: 56px;
+  background: #009CB4;
+  border-radius: 5px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.account_btn_save:hover {
+  background: #01B8D5;
+  transition: background .3s;
+}
+
+

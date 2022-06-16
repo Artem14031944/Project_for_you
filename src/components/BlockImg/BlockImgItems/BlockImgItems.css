@@ -1,0 +1,56 @@
+.BlockImgItems_container {
+  width: 370px;
+  height: 400px;
+}
+
+.BlockImgItems_block_img {
+
+}
+
+.BlockImgItems_block_img img {
+  width: 370px;
+  border:0;
+}
+
+.BlockImgItems_block_content {
+  margin-left: 34px;
+}
+
+.BlockImgItems_container h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #231F20;
+}
+
+.BlockImgItems_date {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  width: 250px;
+}
+
+.BlockImgItems_date img {
+  margin-right: 12px;
+}
+
+.BlockImgItems_date span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #A8AAAE;
+}
+
+.BlockImgItems_text {
+  width: 250px;
+}
+
+.BlockImgItems_text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #676A71
+}

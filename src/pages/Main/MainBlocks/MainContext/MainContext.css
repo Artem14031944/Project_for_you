@@ -1,0 +1,100 @@
+.main_context_container {
+  width: 100%;
+  background-color: #E5E5E5;
+  height: 700px;
+  padding-top: 80px;
+}
+
+.main_context_content {
+  width: 100%;
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.main_context_content__text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  color: #231F20;
+  margin-bottom: 20px;
+}
+
+.main_context_content__text_item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #676A71;
+  margin-bottom: 20px;
+}
+
+.main_context_content__text_item span {
+  color: #009CB4;
+}
+
+.main_context_block_input {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main_context_search_icon {
+  background-image: url('../../../../assets/img/Luch.svg');
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  background-color: transparent;
+  margin-right: 14px;
+  margin-left: 17px;
+}
+
+.main_context_block_search {
+  display: flex;
+  align-items: center;
+  background-color:#fff;
+  width: 330px;
+  height: 56px;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+
+}
+
+.main_context_block_search input {
+  border: none;
+  background-color: transparent;
+  color: #C6C6C6;
+}
+
+.main_context_block_search input:focus {
+  outline: none;
+}
+
+.main_context_block_search input::placeholder {
+  color: #C6C6C6;
+}
+
+.main_context_btn_search {
+  border: none;
+  color: #fff;
+  font-style: normal;
+  border-radius: 0 5px 5px 0;
+  padding: 0 25px;
+  font-weight: 700;
+  font-size: 18px;
+  height: 56px;
+  line-height: 25px;
+  background-color: #009CB4;
+  cursor: pointer;
+  transition: background .3s;
+  
+}
+
+.main_context_btn_search:hover {
+  background: #01B8D5;
+  transition: background .3s;
+}

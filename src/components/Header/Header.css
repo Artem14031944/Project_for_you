@@ -1,0 +1,97 @@
+.header {
+  width: 100%;
+  max-width:1220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo img {
+  margin-right: 42px;
+}
+
+.header_search {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 48px;
+  background: #F9F9FB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header_search_icon {
+  background-image: url('../../assets/img/Luch.svg');
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  background-color: transparent;
+  margin-right: 9px;
+  margin-left: 14px;
+}
+
+.header_search input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #C6C6C6;
+}
+
+.header_search input::placeholder {
+  color: #C6C6C6;
+}
+
+.header_search input:focus {
+  outline: none;
+}
+
+.header_left_item {
+  display: flex;
+  align-items: center;
+}
+
+.header_authorization {
+  display: flex;
+  align-items: center;
+}
+
+.header_authorization a  {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4D4D4F;
+  text-decoration: none;
+}
+
+.header_authorization img {
+  margin-right: 10px;
+}
+
+.header_text_link {
+  margin-right: 19px;
+}
+
+.header_header_authorization_img {
+  cursor: pointer;
+  margin: 0;
+}
+
+.header_line {
+  width: 2px;
+  height: 48px;
+  background-color:#F4F3F5;
+  margin: 0 20px;
+}
+
+.header_events {
+  display: flex;
+}

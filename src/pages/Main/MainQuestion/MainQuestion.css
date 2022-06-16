@@ -1,0 +1,41 @@
+.MainQuestion_container {
+  width: 100%;
+  background: #E5E5E5;
+}
+
+.MainQuestion_wrapper {
+  max-width: 1220px;
+  margin: 80px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MainQuestion_title h2 { 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #231F20;
+}
+
+.MainQuestion_accordion {
+  width: 700px;
+}
+
+.MainQuestion_accordion_accordion_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4D4D4F;
+}
+
+.MainQuestion_accordion_list li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #676A71;
+  margin-bottom: 15px;
+}

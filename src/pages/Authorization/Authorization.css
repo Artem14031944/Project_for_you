@@ -1,0 +1,55 @@
+.authorization_container {
+  width: 100%;
+  max-width: 1220px;
+  margin-top: 40px;
+}
+
+.authorization_block_link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.authorization_block_link a {
+  text-decoration: none;
+}
+
+.authorization_link_go_to_home {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.authorization_link_go_to_home img {
+  margin-right: 17px;
+}
+
+.authorization_link_go_to_home span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #676A71;
+}
+
+.authorization_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.authorization_title h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #231F20;
+}
+
+.authorization_form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+
