@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import ToggleBtn from '../../../assets/img/ToggleInTable.svg';
 import FilterIcon from '../../../assets/img/Reestr_1.svg';
 import PointsIcon from '../../../assets/img/Reestr_2.svg';
 import './MainReestr.css';
@@ -118,6 +119,13 @@ export const MainReestr = () => {
             <TableRow>
               <TableCell>
                 <span className="reestr_table_color_blue">
+                  <img src={ToggleBtn} alt={'ToggleBtn'}/>
+                  Регистрационный номер
+                </span>
+              </TableCell>
+              <TableCell>
+                <span className="reestr_table_color_blue">
+                  <img src={ToggleBtn} alt={'ToggleBtn'}/>
                   Наименование программного обеспечения
                 </span>
               </TableCell>
@@ -129,11 +137,6 @@ export const MainReestr = () => {
               <TableCell align="right">
                 <span className="reestr_table_color_blue">
                   Класс программного обеспечения
-                </span>
-              </TableCell>
-              <TableCell align="right">
-                <span className="reestr_table_color_blue">
-                  Датарегистрации
                 </span>
               </TableCell>
               <TableCell align="right">
